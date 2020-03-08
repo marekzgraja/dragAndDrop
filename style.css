@@ -1,0 +1,41 @@
+.columns {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    border: 1px solid blue;
+    max-width: 600px;
+    top: 50%; 
+    left: 50%;
+    padding: 10px;
+}
+
+.col {
+    padding: 10px 15px; 
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.red {
+    border: 1px solid red;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    margin: 5px 0;
+    cursor: move;
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab; 
+} 
+
+.item:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
